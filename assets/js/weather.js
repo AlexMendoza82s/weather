@@ -64,7 +64,7 @@ let loadDayForecastData = (Ciudad) =>
 	document.getElementById("night_forecast").innerHTML=noche.forecast;
     
 }
-
+//
 let loadWeekForecastData = (Ciudad) => 
 {
     let el=document.getElementsByClassName("list-group")
